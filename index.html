@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social Media Platform</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header Section -->
+  <header>
+    <div class="navbar">
+      <h1>SocialApp</h1>
+      <div class="navbar-links">
+        <a href="#">Home</a>
+        <a href="#">Profile</a>
+        <a href="#">Log Out</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Profile Section -->
+  <div class="profile">
+    <img src="C:\Video Labirary\public\images\download  p.jpeg" alt="User Profile Picture" class="profile-pic">
+    <h2>John Doe</h2>
+    <p>@john_doe</p>
+    <button id="followBtn">Follow</button>
+  </div>
+
+  <!-- Post Section -->
+  <div class="post">
+    <textarea id="postContent" placeholder="What's on your mind?" rows="4"></textarea>
+    <button id="submitPost">Post</button>
+  </div>
+
+  <!-- Posts Feed -->
+  <div class="posts-feed" id="postsFeed">
+    <!-- Example Post -->
+    <div class="post-item">
+      <div class="post-header">
+        <img src="C:\Video Labirary\public\images\download  p.jpeg" alt="User Profile" class="post-user-pic">
+        <h3>John Doe</h3>
+      </div>
+      <p>This is a sample post!</p>
+      <div class="post-actions">
+        <button class="like-btn">👍 Like</button>
+        <button class="comment-btn">💬 Comment</button>
+      </div>
+      <div class="comments">
+        <!-- Comments go here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
